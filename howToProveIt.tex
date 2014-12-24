@@ -6,10 +6,67 @@
 \DeclareMathOperator{\Forall}{\forall}
 \begin{document}
 	\begin{enumerate}
-		\tem  $P \lor Q$ is known as a disjunction.
+		\item  $P \lor Q$ is known as a disjunction.
 		\item $P \land Q$ is known as a conjuction.
+		\item Formulas that are always true are known as tautologies.
+		\item Formulas that are always false are known as contradictions.
+		\item Equivalent is the same as saying IFF.
 	  \item Try to show something is a negative statement with logic.
-	  \item An u is valid if the premisis can not be true with out the conclusion being true.
+	  \item An argument is valid if the premisis can not be true with out the conclusion being true.
+	  \item Think of a bound variable as a parameter, and a free variable as an argument.
+	  \item $\{x | \ldots\}$ binds the variable x.
+	  \item$\{x | P(x)\}$ is just the name of a set.
+	  \item Keep in mind, $2 \in \{2\}$ but $2 \neq \{2\}$.
+	  \item Truth set is the set of all values that makes a statement true.
+	  \item Set of all possible values of a variable is known as the universe of discourse for the statement.
+	  \item We say variables range over this universe.
+	  \item In general, $y \in \{x \in A | P(x)\}$ means the same thing as $y \in A \land P(y)$.
+	  \item Tautology means true no matter what.
+	  \item Elementhoodtest.
+	  \item Null or empty set is represented by $\varnothing$.
+	  \item The truth set of a statement P(x) is the set of all values of x that make the statement P(x) true.
+	  \item A \textbackslash B is the same as A - B.
+	  \item The symmetric differemce: $A \Delta B = (A \setminus B) \cup (B \setminus A) = (A \cup B) \setminus (A \cap B).$
+	  \item Two sets are disjoint if they have no elements in common.
+	  \item To say $A \land B$ is meaningless.
+	  \item Theorem: for any sets A and B, $(A \cup B) \setminus B \subseteq A$.
+	  \item The main logical equicalences in logic are:
+		  \begin{enumerate}
+			  \item DeMorgan's laws.
+			  \item Commutative laws.
+			  \item Associative laws.
+			  \item Idempotent laws.
+			  \item Distributive laws.
+			  \item Absorption laws.
+			  \item Double negation law.
+		  \end{enumerate} 
+	  \item $y \in \{x | P(x)\} $is the same as $P(y).$
+	  \item $\{x \in \mathbb{R} | P(x)\} $ means the universe of discourse can only be the real numbers.
+	  \item Truth set of $P(x) = \{x | P(x)\}$, where P(x) is the elementhood test.
+	  \item The above is for one free variable only.
+	  \item Injective: A one to one function.
+	  \item Surjective(onto): A funtion whose image is equal to its codomain.
+	  \item Bijective: A function that is both injective and surjective.
+	  \item $y \not\in \{x | P(x)\}$ means the same as $\lnot P(y)$.
+	  \item Keep in mind $\{x | P(x)\}$ is just the name of a set.
+	  \item Logical connectives can only be used to combine statements.
+	  \item Set theory operations to combine sets only.
+	  \item A is said to be a subset of B if every element in A is in B too, $A \subseteq B$
 	\end{enumerate}
+	\subsection{The Conditional and Biconditional Connectives}
+	\begin{enumerate}
+		\item If P then Q is denoted by $P \implies Q$, this known as a conditional statement, where P is the antecedent and Q is the consequent.
+		\item $P \implies Q$ and $\lnot P \lor Q$ and $ \lnot (P \land Q)$ are all the same.
+            \item $P\Leftrightarrow Q$ means the biconditional.
+
+	\end{enumerate}
+    \section{Quantificational Logic}
+    \begin{enumerate}
+    \item $\forall x P(x) \rightarrow Q(x) $means $(\forall x P(x)) \rightarrow Q(x), $not $\forall x(P(x) \rightarrow Q(x)).$
+        \item We say a universal quantifier binds a variable.
+            \item A conditional statement means implies.
+    \end{enumerate}
 \end{document}
+
+
 
